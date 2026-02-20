@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.3.165
+- hosts: webservers
   become: yes
   tasks:
     - name: INSTALL APACHE2
